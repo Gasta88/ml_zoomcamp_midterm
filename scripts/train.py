@@ -9,6 +9,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 N_ESTIMATORS = 110
 MAX_DEPTH = 7
 RANDOM_STATE = 1
+OUTPUT_MODEL_FILE = "../model/rf.bin"
 OUTPUT_FILE = "../model/rf.bin"
 
 print("Loading data...")
